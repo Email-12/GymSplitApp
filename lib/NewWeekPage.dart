@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'main.dart';
 
 class MyNewWeekPage extends StatefulWidget {
@@ -12,25 +11,14 @@ class MyNewWeekPage extends StatefulWidget {
 }
 
 class _MyNewWeekPageState extends State<MyNewWeekPage> {
-  //int _counter = 0;
 
-  void _incrementCounter() {
-    setState(() {
-     // _counter++;
-    });
-  }
-//comment
-  //commenttt
   @override
   Widget build(BuildContext context) {
 
     return Scaffold(
-      /*appBar: AppBar(
-        title: Text(widget.title),
-      ),*/
+
       body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
+
         child: Column(
 
           mainAxisAlignment: MainAxisAlignment.center,
@@ -61,10 +49,6 @@ class _MyNewWeekPageState extends State<MyNewWeekPage> {
                 hintText: 'Enter muscle group',
               ),
             ),
-
-
-
-
 
         ElevatedButton(
           onPressed: () {

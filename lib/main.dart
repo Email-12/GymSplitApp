@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gym_split/TEST_Test.dart';
 import 'NewWeekPage.dart';
 
 void main() {
@@ -12,17 +13,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Flutter Demo',
 
-      home: MyHomePage(title: 'GymSplit Home'),
+      home: MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
+  const MyHomePage({Key? key, }) : super(key: key);
 
-  final String title;
+
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -52,22 +52,30 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
 
-            const Text(
-              'Screen#1',
-            ),
-
             ElevatedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => MyNewWeekPage(title: 'Current Week Overview')),
-                  );
-                },
+              onPressed: () {
+              Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => MyNewWeekPage(value: '',)), //MyNewWeekPage
+              );
+            },
                 child: const Text('Current Week'),
                 style: ElevatedButton.styleFrom(
                   primary: Colors.purple,)
             ),
+/*
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const MyTestPage()), //MyTestPage
+                  );
+                },
+                child: const Text('TEST'),
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.red,)
+            ),
+*/
           ],
         ),
       ),

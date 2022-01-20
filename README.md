@@ -20,15 +20,12 @@ So this is how I thought of creating a simple app that would allow me to keep tr
 
 
 
-## Getting Started
+## What I implemented and what I plan on adding 
 
-This project is a starting point for a Flutter application.
+My app consists of just a few pages as of now. I also have navigation buttons on each page and my app consists mostly of ListView and ListTile.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+I understand that there is still a lot more to be done, but I'm proud of how much I’'ve been able
+to get done considering the fact that I've been sick over the past month so I didn't get much time to work on this,but I made sure to watch all the videos so I was caught up.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I think I was able to get a good amount done and I know what to add and implement later on, for example completing those other two pages and adding firebase.

@@ -24,8 +24,6 @@ So this is how I thought of creating a simple app that would allow me to keep tr
 
 My app consists of just a few pages as of now. I also have navigation buttons on each page and my app consists mostly of ListView and ListTile.
 
-
-I understand that there is still a lot more to be done, but I'm proud of how much I’'ve been able
-to get done considering the fact that I've been sick over the past month so I didn't get much time to work on this,but I made sure to watch all the videos so I was caught up.
+I understand that there is still a lot more to be done
 
 I think I was able to get a good amount done and I know what to add and implement later on, for example completing those other two pages and adding firebase.

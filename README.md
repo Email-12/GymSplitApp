@@ -24,5 +24,5 @@ So this is how I thought of creating a simple app that would allow me to keep tr
 
 My app consists of just a few pages as of now. I also have navigation buttons on each page and my app consists mostly of ListView and ListTile.
 
-There is still a lot more to be done
+There is still a lot more to be done, for example connecting it to a firbase database.
 
